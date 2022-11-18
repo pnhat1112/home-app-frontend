@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import Post from "./Post/Post.js";
 
+import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
 import useStyles from './stylesPosts.js';
 
 const Posts = () => {
@@ -14,6 +15,7 @@ const Posts = () => {
             <h1 className={classes.something}>Posts</h1>
             <Post />
             <Post />
+            
         </>
     );
 }

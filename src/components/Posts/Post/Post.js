@@ -4,7 +4,10 @@ import useStyles from './stylesPost.js';
 const Post = () => {
     const classes = useStyles();
     return(
-        <h1>Post</h1>
+        <div>
+        <h1>Post </h1>
+        
+        </div>
     );
 }
 
